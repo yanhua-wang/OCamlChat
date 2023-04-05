@@ -1,0 +1,7 @@
+(executable
+  (name server)
+  (libraries unix threads))
+
+(executable
+  (name client)
+  (libraries unix))
