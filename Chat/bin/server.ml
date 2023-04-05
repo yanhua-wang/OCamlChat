@@ -27,6 +27,5 @@ let () =
     | ADDR_INET (inet_addr, _) -> string_of_inet_addr inet_addr
     | _ -> "unknown" in
   Printf.printf "Accepted connection from %s\n%!" client_ip;
-  (* Spawn a new thread to handle the client *)
-  let _ = Thread.create handle_client client_sock in
+  let _ = handle_client client_sock in
   ()
