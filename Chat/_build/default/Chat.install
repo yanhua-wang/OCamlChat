@@ -1,0 +1,5 @@
+lib: [
+  "_build/install/default/lib/Chat/META"
+  "_build/install/default/lib/Chat/dune-package"
+  "_build/install/default/lib/Chat/opam"
+]

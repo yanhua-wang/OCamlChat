@@ -1,0 +1,27 @@
+(lang dune 3.7)
+
+(name Chat)
+
+(generate_opam_files true)
+
+(source
+ (github username/reponame))
+
+(authors "Stefanie Wang")
+
+(maintainers "Stefanie Wang")
+
+(license MIT)
+
+(documentation https://url/to/documentation)
+
+(package
+ (name Chat)
+ (allow_empty)
+ (synopsis "One to one chat")
+ (description "Server and Client")
+ (depends ocaml dune)
+ (tags
+  (topics "to describe" your project)))
+
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project

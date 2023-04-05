@@ -1,0 +1,10 @@
+(executable
+ (name server)
+ (modules Server)
+ (libraries unix threads))
+
+(executable
+ (name client)
+ (modules Client)
+ (libraries unix))
+
